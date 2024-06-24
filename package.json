@@ -66,5 +66,22 @@
         "@qdrant/openapi-typescript-fetch": "1.2.1",
         "@google/generative-ai": "^0.7.0",
         "openai": "4.51.0"
-    }
+    },
+    "description": "<!-- markdownlint-disable MD030 -->",
+    "main": ".eslintrc.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
+{
+  "name": "flowise-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js",
+    "build": "npm install"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+
